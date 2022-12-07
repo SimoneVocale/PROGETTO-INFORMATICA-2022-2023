@@ -1,0 +1,65 @@
+body{
+    font-size: large;
+    background-image: url("sfondo1.webp");
+    
+    text-align: center;
+}
+.box{
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    top: 35%;
+    left: 40%;
+    border-radius: 30px;
+    border: solid black 3px;
+
+    padding: 20px;
+    font-family: 'Zen Dots', cursive;
+    font-size: large;
+    
+
+}
+h1{
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+}
+
+.box input{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    position: relative;
+    background: cadetblue;
+    border: black solid 2px;
+    font-family: 'Zen Dots', cursive;
+    font-size: medium;
+
+
+}
+.box input[type="submit"]:hover{
+    background-color: transparent;
+    color: darkmagenta;
+    font-weight: 800;
+    border: solid darkmagenta 3px;
+}
+
+
+.pass{
+    font-family: 'Zen Dots', cursive;
+    font-size: medium;
+}
+
+
+.bot:hover{ 
+    color: black;
+       
+}
+
+.link{
+    font-family: 'Zen Dots', cursive;
+    font-size: medium;
+}
+.link a:hover{
+    color: firebrick;
+}
+
