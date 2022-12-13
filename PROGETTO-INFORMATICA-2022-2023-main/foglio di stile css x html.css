@@ -1,6 +1,8 @@
 body{
     font-size: large;
-    background-image: url("sfondo1.webp");
+    
+
+    
     
     text-align: center;
 }
@@ -8,7 +10,7 @@ body{
     background-color: white;
     position: absolute;
     width: 400px;
-    top: 35%;
+    top: 30%;
     left: 40%;
     border-radius: 30px;
     border: solid black 3px;
@@ -29,20 +31,13 @@ h1{
     border-radius: 10px;
     padding: 10px 30px;
     position: relative;
-    background: cadetblue;
+    background: cornflowerblue;
     border: black solid 2px;
     font-family: 'Zen Dots', cursive;
     font-size: medium;
 
 
 }
-.box input[type="submit"]:hover{
-    background-color: transparent;
-    color: darkmagenta;
-    font-weight: 800;
-    border: solid darkmagenta 3px;
-}
-
 
 .pass{
     font-family: 'Zen Dots', cursive;
@@ -62,4 +57,24 @@ h1{
 .link a:hover{
     color: firebrick;
 }
+.bot{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    position: relative;
+    background: cornflowerblue;
+    border: black solid 2px;
+    font-family: 'Zen Dots', cursive;
+    font-size: medium;
 
+}
+.bot:hover{
+    background-color: transparent;
+    color: darkmagenta;
+    font-weight: 800;
+    border: solid darkmagenta 3px;
+}
+p{
+    color: red;
+    margin: auto;
+}
